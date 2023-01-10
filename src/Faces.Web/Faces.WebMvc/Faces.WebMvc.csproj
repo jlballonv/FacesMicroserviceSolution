@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="6.2.5" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.5" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FacesSharedLib\Messaging.InterfacesConstants\Messaging.InterfacesConstants.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+</Project>
